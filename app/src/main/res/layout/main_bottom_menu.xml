@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorThemeBackground"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_bottom_menu_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_style_item"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_menu_news"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:src="@drawable/icon_xinwen" />
+
+            <TextView
+                android:id="@+id/textView_bottom_menu_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_bottom_menu_news"
+                android:text="新闻"
+                android:textColor="@color/colorMainBottomMenuText"
+                android:textSize="@dimen/bottom_menu_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_bottom_menu_news_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_style_item"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_menu_news_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:src="@drawable/icon_xinwen_h" />
+
+            <TextView
+                android:id="@+id/textView_bottom_menu_news_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_bottom_menu_news_selected"
+                android:text="新闻"
+                android:textColor="@color/colorMainBottomMenuTextSelected"
+                android:textSize="@dimen/bottom_menu_text_size" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_bottom_menu_strategy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_style_item"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_menu_strategy"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:src="@drawable/icon_gonglue" />
+
+            <TextView
+                android:id="@+id/textView_bottom_menu_strategy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_bottom_menu_strategy"
+                android:text="攻略"
+                android:textColor="@color/colorMainBottomMenuText"
+                android:textSize="@dimen/bottom_menu_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_bottom_menu_strategy_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_style_item"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_menu_strategy_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:src="@drawable/icon_gonglue_h" />
+
+            <TextView
+                android:id="@+id/textView_bottom_menu_strategy_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_bottom_menu_strategy_selected"
+                android:text="攻略"
+                android:textColor="@color/colorMainBottomMenuTextSelected"
+                android:textSize="@dimen/bottom_menu_text_size" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_bottom_menu_hand_game"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_style_item"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_menu_hand_game"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:src="@drawable/icon_shouyou" />
+
+            <TextView
+                android:id="@+id/textView_bottom_menu_hand_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_bottom_menu_hand_game"
+                android:text="手游"
+                android:textColor="@color/colorMainBottomMenuText"
+                android:textSize="@dimen/bottom_menu_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_bottom_menu_hand_game_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_style_item"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_menu_hand_game_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:src="@drawable/icon_shouyou_h" />
+
+            <TextView
+                android:id="@+id/textView_bottom_menu_hand_game_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_bottom_menu_hand_game_selected"
+                android:text="手游"
+                android:textColor="@color/colorMainBottomMenuTextSelected"
+                android:textSize="@dimen/bottom_menu_text_size" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

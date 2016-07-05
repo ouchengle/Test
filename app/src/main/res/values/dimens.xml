@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="news_item_padding">9dp</dimen>
+    <dimen name="news_title_text_size">14sp</dimen>
+    <dimen name="news_comments_text_size">12sp</dimen>
+    <dimen name="huandeng_title_text_size">13sp</dimen>
+    <dimen name="content_action_bar_text_size">15sp</dimen>
+    <dimen name="bottom_menu_text_size">14sp</dimen>
+    <dimen name="left_drawer_menu_text_size">14sp</dimen>
+</resources>

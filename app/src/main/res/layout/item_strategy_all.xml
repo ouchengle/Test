@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:padding="@dimen/news_item_padding">
+
+        <ImageView
+            android:id="@+id/iv_strategy_all"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic_loading" />
+
+        <TextView
+            android:id="@+id/tv_strategy_all_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/iv_strategy_all"
+            android:text="测试文字测试文字测试文字"
+            android:textColor="@color/colorDrawerText"
+            android:textSize="@dimen/news_title_text_size" />
+
+        <TextView
+            android:id="@+id/tv_strategy_sub_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv_strategy_all"
+            android:text="0"
+            android:textSize="@dimen/news_comments_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tv_strategy_sub_count"
+            android:text="人订阅"
+            android:textSize="@dimen/news_comments_text_size" />
+
+        <Button
+            android:id="@+id/bt_strategy_sub"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/login_button_style_item"
+            android:text="订阅"
+            android:textColor="#ffffff"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
